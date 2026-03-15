@@ -6,6 +6,8 @@ import LogoShowcase from './sections/LogoShowcase.jsx'
 import ExperienceSection from './sections/ExperienceSection.jsx'
 import TechStack from './sections/TechStack.jsx'
 import Contact from "./sections/Contact.jsx";
+import ChatBot from "./ChatBot";
+
 
 const App = () => {
   return (
@@ -18,7 +20,8 @@ const App = () => {
   <ExperienceSection />
   <TechStack/>
   <Contact />
- 
+  <ChatBot />
+
    </>
   )
 }

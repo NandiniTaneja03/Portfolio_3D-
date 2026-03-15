@@ -50,20 +50,36 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+<div
+              className="image-wrapper"
+              style={{
+                width: "100%",
+                height: "300px",
+                overflow: "hidden",
+                borderRadius: "20px",
+              }}
+            >
+              <img
+                src="/images/project1_new.jpeg"
+                alt="Smart Delivery Management for Modern Businesses"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
             </div>
+
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>Smart Delivery Management for Modern Businesses</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Create deliveries, assign drivers, track packages in real time
+                and analyze logistics performance — all in one powerful platform.
               </p>
             </div>
           </div>
+
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
